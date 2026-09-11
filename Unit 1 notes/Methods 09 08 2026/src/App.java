@@ -38,5 +38,15 @@ public class App {
         System.out.println(c1.calcArea());
         System.out.println(c2.calcArea());
 
+        //r1 = Rectangle() **Remeber**
+        System.out.println(r1.getLength());
+        r1.setLength(17);
+        System.out.println(r1.calcArea());
+        //why is length private?
+        //how can I make a workd around?
+
+        System.out.println(r1.getWidth());
+        r1.setLength(18);
+        System.out.println(r1.calcArea());
     }
 }

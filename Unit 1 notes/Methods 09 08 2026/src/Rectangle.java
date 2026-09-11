@@ -28,5 +28,26 @@ public class Rectangle {
         return ((2*length)+(2*width));
     }
 
+    //getters and setters
+    //accessors and mutators
+    //these are public methods that allow us to see and modify private attributes
+    public int getLength(){
+        return length;
+    }
+    public void setLength(int l){
+        if(l>=0){
+        length = l;
+        
+        }
+    }
 
+    public int getWidth(){
+        return width;
+    }
+
+    public void setWidth(int w){
+        if(w>=0){
+            width = w;
+        }
+    }
 }
