@@ -13,4 +13,15 @@ public class Circle {
         return Math.pow(radius,2) * Math.PI;
     }
 
+    //getters and setters
+    public int getRadius(){
+        return radius;
+    }
+    public void setRadius(int r){
+        if(r>=0){
+            radius = r;
+
+        }
+    }
+    
 }
