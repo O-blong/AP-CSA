@@ -6,11 +6,11 @@ public class App {
     }
     public static void main(String[] args) throws Exception {
         //Method Type 1
-        /* Scanner s1 = new Scanner(System.in);
+        Scanner s1 = new Scanner(System.in);
         s1.nextLine(); //not static (and in another file) */
 
         //Method type 2
-        /*sum(1,2); //static in this current file
+        sum(1,2); //static in this current file
         sum(2,3); //static
         int x = 44;
         int z = 6;
@@ -52,7 +52,7 @@ public class App {
         Circle c11 = new Circle(1);
         System.out.println(c11.getRadius());
         c11.setRadius(10);
-        System.out.print(c11.getRadius());*/
+        System.out.print(c11.getRadius());
 
         String myString = "hi";
         myString = "hello";
@@ -73,5 +73,13 @@ public class App {
 
         System.out.println("D".compareTo("d"));
         //takes the ASCII
+
+        System.out.println(r1.toString());
+        System.out.println(r1);
+        //before my compiler prints an object's memory location,
+        //it will 
+
+        System.out.println(c11.toString());
+        System.out.println(c11);
     }
 }

@@ -50,4 +50,8 @@ public class Rectangle {
             width = w;
         }
     }
+
+    public String toString(){
+        return "length is: " + length + "width is: " + width;
+    }
 }

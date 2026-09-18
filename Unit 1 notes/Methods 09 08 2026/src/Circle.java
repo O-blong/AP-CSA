@@ -23,5 +23,8 @@ public class Circle {
 
         }
     }
+    public String toString(){
+        return "radius is " + radius;
+    }
     
 }
